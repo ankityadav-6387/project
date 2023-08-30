@@ -1,0 +1,542 @@
+@font-face {
+    font-family: abs;
+    src: url(/founders-grotesk-x-condensed-bold.2f649e5.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#first-page{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: #fff;
+    padding-top: 110px;
+}
+#first-page h1{
+    font-size: 19vw;
+    letter-spacing: 6px;
+    line-height: 21vw;
+    color: #050505;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    transform-style: preserve-3d;
+   
+
+}
+#first-page h2{
+    font-size: 19.5vw;
+    letter-spacing: 6px;
+    line-height: 14vw;
+    color: #050505;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+   
+
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 56px;
+    position: fixed;
+    top: 50px;
+    z-index: 9999;
+    /* mix-blend-mode: difference; */
+}
+#nav h5{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#nav #menu{
+    height: 12px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+#line1{
+    height: 2px;
+    width: 100%;
+    transform-origin: 0 0;
+    transition: all linear 0.4s;
+    background-color: #050505;
+
+}
+#line2{
+    height: 2px;
+    width: 100%;
+    transform-origin: 0 0;
+    transition: all linear 0.4s;
+    background-color: #050505;
+    
+}
+#main{
+    z-index: 999;
+    padding-top: 90vh;
+    position: relative;
+}
+#page1{
+    min-height: 100vh;
+    width: 100%;
+    position:relative;
+}
+#page1 #img{
+    height: 100vh;
+    width: 420px;
+    position: relative;
+    margin-top: 10px;
+    overflow-y: hidden;
+    left: 50%;
+    transform: translate(-50%,0%);
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://uploads-ssl.webflow.com/64288ea7be3b591ebd282598/642c38b90a102a1c87027c62_hero-image-p-2000.jpg);
+    background-color: #050505;
+
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding-top: 110px;
+    background-color: #fff;
+    
+}
+#page2 h2{
+    
+    font-size: 16px;
+    color: #050505;
+    text-align: center;
+    text-transform: uppercase;
+    /* display: block; */
+    
+}
+#page2 p{
+    padding-top: 20px;
+    font-size: 5vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #050505;
+}
+#page3{
+    min-height: 600vh;
+    width: 100%;
+    background-color: #050505;
+    position: relative;
+    padding: 70px 40px;
+}
+.box{
+    height: 650px;
+    width: 450px;
+    background-color: #fff;
+    margin: 30px;
+    overflow: hidden;
+}
+.box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+#box2{
+    height: 650px;
+    width: 450px;
+    background-color: antiquewhite;
+    margin-top: 200px;
+    margin-left: 60%;
+}
+#box4{
+    height: 650px;
+    width: 450px;
+    background-color: antiquewhite;
+    margin-top: 200px;
+    margin-left: 60%;
+}
+#box6{
+    height: 650px;
+    width: 450px;
+    background-color: antiquewhite;
+    margin-top: 200px;
+    margin-left: 60%;
+}
+#box8{
+    height: 650px;
+    width: 450px;
+    background-color: antiquewhite;
+    margin-top: 200px;
+    margin-left: 60%;
+}
+#box10{
+    height: 650px;
+    width: 450px;
+    background-color: antiquewhite;
+    margin-top: 200px;
+    margin-left: 60%;
+}
+#box12{
+    height: 650px;
+    width: 450px;
+    background-color: antiquewhite;
+    margin-top: 200px;
+    margin-left: 60%;
+}
+#page4{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #050505;
+}
+#page4 h5{
+    margin: 10px;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 10;
+
+}
+#page4 h1{
+    font-size: 12vw;
+    color: #fff;
+    font-weight: 10;
+}
+#page5{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #fff;
+}
+#page5 #para{
+    height: 400px;
+    width: 690px;
+    /* background-color: #050505; */
+}
+#page5 p{
+    font-size: 8vw;
+    text-align: center;
+    letter-spacing: -4px;
+    color: rgb(146, 144, 144);
+    font-weight: 9;
+    -webkit-text-stroke: 1px transparent;
+
+}
+#page5 #bot{
+    height: 70px;
+    width: 200px;
+    /* background-color: #050505; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 490px;
+    margin-left: -430px;
+}
+#page5 #bot h5{
+    font-size: 17px;
+    text-align: center;
+    font-weight: 8;
+   
+}
+#page5 button{
+    height: 60px;
+    width: 180px;
+    font-size: 14px;
+    border-radius: 40px;
+    margin-top: 620px;
+    margin-left: -190px;
+}
+#page5 button:hover{
+    background-color: blue;
+    color: #fff;
+}
+#page5 #foter{
+    height: 10px;
+    width: 30%;
+    
+    left: 0;
+   
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+#page5 #foter h4{
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 700px; 
+    margin-left: -1300px;
+    font-weight: 200;
+   
+    
+    
+}
+#page5 #foter2{
+    height: 10px;
+    width: 30%;
+    
+    position: absolute;
+   
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    margin-top: 700px;
+    margin-left: 350px;
+}
+#page5 #foter2 h3{
+    font-size: 19px;
+    font-weight:99;
+    
+    
+}
+
+@media (max-width:600px) {
+    #first-page{
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        background-color: #fff;
+        padding-top: 110px;
+    }
+    #first-page h1{
+        font-size: 16vw;
+        letter-spacing: 6px;
+        line-height: 21vw;
+        color: #050505;
+        font-weight: 100;
+        text-transform: uppercase;
+        text-align: center;
+        transform-style: preserve-3d;
+       
+    
+    }
+    #first-page h2{
+        font-size: 16vw;
+        letter-spacing: 6px;
+        line-height: 14vw;
+        color: #050505;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: center;
+       
+    
+    }
+    #page1{
+        min-height: 100vh;
+        width: 100%;
+        position:relative;
+    }
+    #page1 #img{
+        height: 100vh;
+        width: 220px;
+        position: relative;
+        margin-top: 8px;
+        overflow-y: hidden;
+        left: 50%;
+        transform: translate(-50%,0%);
+        background-size: cover;
+        background-position: center;
+        background-image: url(https://uploads-ssl.webflow.com/64288ea7be3b591ebd282598/642c38b90a102a1c87027c62_hero-image-p-2000.jpg);
+        background-color: #050505;
+    
+    }
+    #page2{
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        padding-top: 140px;
+        background-color: #fff;
+        
+    }
+    #page2 h2{
+        
+        font-size: 14px;
+        color: #050505;
+        text-align: center;
+        text-transform: uppercase;
+        /* display: block; */
+        
+    }
+    #page2 p{
+        padding-top: 40px;
+        font-size: 4.5vw;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #050505;
+    }
+    #page3{
+        min-height: 600vh;
+        width: 100%;
+        background-color: #050505;
+        position: relative;
+        padding: 80px 10px;
+    }
+    .box{
+
+        height: 350px;
+        width: 250px;
+        background-color: #fff;
+        margin: 20px;
+        overflow: hidden;
+    }
+    .box img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        
+    }
+    #box2{
+        height: 350px;
+        width: 250px;
+        background-color: antiquewhite;
+        margin-top: 60px;
+        margin-left: 50%;
+    }
+    #box4{
+        height: 350px;
+        width: 250px;
+        background-color: antiquewhite;
+        margin-top: 200px;
+        margin-left: 50%;
+    }
+    #box6{
+        height: 350px;
+        width: 250px;
+        background-color: antiquewhite;
+        margin-top: 200px;
+        margin-left: 50%;
+    }
+    #box8{
+        height: 350px;
+        width: 250px;
+        background-color: antiquewhite;
+        margin-top: 200px;
+        margin-left: 50%;
+    }
+    #box10{
+        height: 350px;
+        width: 250px;
+        background-color: antiquewhite;
+        margin-top: 200px;
+        margin-left: 50%;
+    }
+    #box12{
+        height: 350px;
+        width: 250px;
+        background-color: antiquewhite;
+        margin-top: 200px;
+        margin-left: 50%;
+    }
+    #page5{
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        background-color: #fff;
+    }
+    #page5 #para{
+        height: 400px;
+        width: 240px;
+        /* background-color: #050505; */
+    }
+    #page5 p{
+        font-size: 8vw;
+        text-align: center;
+        letter-spacing: -4px;
+        color: rgb(146, 144, 144);
+        font-weight: 9;
+        -webkit-text-stroke: 1px transparent;
+    
+    }
+    #page5 #bot{
+        height: 70px;
+        width: 130px;
+        /* background-color: #050505; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 490px;
+        margin-left: -190px;
+    }
+    #page5 #bot h5{
+        font-size: 10px;
+        text-align: center;
+        font-weight: 8;
+       
+    }
+    #page5 button{
+        height: 30px;
+        width: 80px;
+        font-size: 11px;
+        border-radius: 40px;
+        margin-top: 620px;
+        margin-left: -100px;
+    }
+    #page5 button:hover{
+        background-color: blue;
+        color: #fff;
+    }
+    #page5 #foter{
+        height: 10px;
+        width: 12%;
+        
+        left: 0;
+       
+        display: flex;
+        align-items:center;
+        justify-content: space-evenly;
+    }
+    #page5 #foter h4{
+        font-size: 10px;
+        text-transform: uppercase;
+        margin-top: 700px; 
+        margin-left: -470px;
+        font-weight: 200;
+       
+        
+        
+    }
+    #page5 #foter2{
+        height: 10px;
+        width: 30%;
+        
+        position: absolute;
+       
+        display: flex;
+        align-items:center;
+        justify-content: space-evenly;
+        margin-top: 700px;
+        margin-left: 350px;
+    }
+    #page5 #foter2 h3{
+        font-size: 13px;
+        font-weight:99;
+        
+        
+    }
+    
+}
