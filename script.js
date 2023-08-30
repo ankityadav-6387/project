@@ -80,6 +80,7 @@ gsap.from(".box1 img",{
     opacity:1.4,
     
     
+    
     scrollTrigger:{
       trigger:"#page4",
       scroller:"#main",
